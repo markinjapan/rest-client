@@ -1,0 +1,28 @@
+{
+    "name": "markinjapan/rest-client",
+    "description": "RESTful API client for ZF2",
+    "keywords": ["php","zf2","rest","api","oauth","oauth2","auth"],
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Mark Prosser",
+            "email": "mark.prosser8@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "zendframework/zend-db": "~2.3",
+        "zendframework/zend-eventmanager": "~2.3",
+        "zendframework/zend-http": "~2.3",
+        "zendframework/zend-servicemanager": "~2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "MarkInJapan\\RestClient\\": "src/"
+        },
+        "classmap": [
+            "Module.php"
+        ]
+    }
+}
