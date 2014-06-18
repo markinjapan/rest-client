@@ -7,7 +7,7 @@ use Zend\ServiceManager\ServiceLocatorInterface;
 
 use Zend\Http\Client as HttpClient;
 use MarkInJapan\RestClient\RestClient;
-use MarkInJapan\RestClient\ApiAuthenticationListener;
+use MarkInJapan\RestClient\Listener\ApiAuthenticationListener;
 
 class RestClientFactory implements FactoryInterface
 {
